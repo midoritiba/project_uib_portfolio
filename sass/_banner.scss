@@ -1,0 +1,49 @@
+#home {
+  background: radial-gradient(
+      ellipse at center,
+      rgba(41, 40, 40, 0.92) 58%,
+      rgba(19, 19, 19, 0.805) 85%
+    ),
+    url("../assets/background.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  .container {
+    div {
+      div {
+        h1 {
+          font-size: 12rem;
+          color: whitesmoke;
+          text-shadow: 20px -20px 60px #bebebe, -20px 20px 60px #ffffff;
+          .blink_me {
+            animation: blinker 1.5s linear infinite;
+            display: inline;
+          }
+        }
+      }
+
+      div {
+        div {
+          a {
+            font-weight: bold;
+            font-family: "Josefin Slab", serif;
+
+            &:hover i {
+              transform: translateY(60px);
+            }
+            i {
+              transition: 1s all ease-in;
+              position: relative;
+
+              &:hover {
+                cursor: pointer;
+                transform: translateY(60px);
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

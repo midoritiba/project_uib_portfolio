@@ -1,0 +1,38 @@
+#about {
+  background: #000000;
+
+  div {
+    div {
+      div {
+        #photo {
+          clip-path: polygon(25% 0%, 100% 59%, 75% 100%, 0 100%);
+          background-color: black;
+          object-fit: cover;
+          object-position: center;
+        }
+      }
+    }
+  }
+
+  #cv {
+    border-radius: 10px;
+    &:hover {
+      background-color: red;
+      color: black;
+    }
+  }
+
+  div {
+    #arrow-down {
+      font-family: "Josefin Slab", serif;
+      transition: 1s all ease-in;
+      &:hover i {
+        transform: translateY(60px);
+      }
+      i {
+        position: relative;
+        transition: 1s all ease-in;
+      }
+    }
+  }
+}

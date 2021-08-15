@@ -1,0 +1,19 @@
+#contact {
+  div {
+    div {
+      div {
+        p {
+          @include shadow(text, 5px, 5px, 10px, black);
+        }
+      }
+      div {
+        a {
+          @include shadow(text, 5px, 5px, 10px, black);
+          &:hover {
+            font-weight: bold;
+          }
+        }
+      }
+    }
+  }
+}

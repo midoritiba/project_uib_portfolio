@@ -1,0 +1,36 @@
+//custom variables
+$primary: rgba(221, 90, 53, 255);
+$secondary: rgba(0, 0, 0, 0.897);
+$success: rgb(0, 247, 255);
+$info: rgba(114, 241, 184, 255);
+$warning: gray;
+
+// import the functions & variables
+@import "../node_modules/bootstrap/scss/_functions";
+@import "../node_modules/bootstrap/scss/variables";
+@import "mixin";
+
+// import bootstrap
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+//template
+@import "navbar";
+@import "banner";
+@import "projects";
+@import "about";
+@import "footer";
+
+//Fonts
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Slab:wght@100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Rajdhani:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lexend+Mega&display=swap");
+
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
+}
+
+body {
+  font-family: "Rajdhani", sans-serif;
+}

@@ -1,0 +1,51 @@
+#projects {
+  //   height: calc(100vh - 6rem);
+  width: 100%;
+  background-color: rgb(20, 18, 18);
+
+  div {
+    div {
+      div {
+        clip-path: polygon(
+          25% 0%,
+          75% 0%,
+          100% 50%,
+          75% 100%,
+          25% 100%,
+          0% 50%
+        );
+        background-color: rgba(97, 93, 93, 0.493);
+
+        h3 {
+          font-family: "Lexend Mega", sans-serif;
+        }
+        img {
+          width: 80%;
+          height: 70%;
+        }
+        a {
+          &:hover {
+            font-weight: bold;
+          }
+        }
+      }
+    }
+  }
+
+  #row-about {
+    div {
+      a {
+        font-family: "Josefin Slab", serif;
+        transition: 1s all ease-in;
+
+        &:hover i {
+          transform: translateY(60px);
+        }
+        i {
+          position: relative;
+          transition: 1s all ease-in;
+        }
+      }
+    }
+  }
+}

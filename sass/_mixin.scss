@@ -1,0 +1,10 @@
+@mixin flexBox($dir, $main, $cross) {
+  display: flex;
+  flex-direction: $dir;
+  justify-content: $main;
+  align-items: $cross;
+}
+
+@mixin shadow($type, $xWidth, $yWidth, $blurRad, $clr) {
+  #{$type}-shadow: $xWidth $yWidth $blurRad $clr;
+}

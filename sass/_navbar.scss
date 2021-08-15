@@ -1,0 +1,34 @@
+nav {
+  @include shadow(box, 5px, 5px, 10px, black);
+
+  div {
+    i {
+      cursor: pointer;
+      color: white;
+
+      &:hover::after {
+        content: "hello world";
+        color: white;
+        font-family: "courier new";
+        font-size: 0.7rem;
+        position: absolute;
+        bottom: 5%;
+        left: 0.8%;
+        z-index: 5;
+      }
+    }
+  }
+  div {
+    ul {
+      li {
+        &:hover a {
+          transform: scale(0.8);
+          color: white !important;
+        }
+        a {
+          letter-spacing: 0.3rem;
+        }
+      }
+    }
+  }
+}
