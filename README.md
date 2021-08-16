@@ -1,4 +1,4 @@
-# DCI Final Project- Modulo 2 - User Interface Basic (UIB)
+# DCI Final Project- Module 2 - User Interface Basic (UIB)
 
 Final project of the second module of the web development course at *Digital Career Institute (DCI)*.
 <br>
